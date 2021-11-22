@@ -3,7 +3,7 @@
 
 
 
-// FUNCTION
+
 
 // chiedo all'utente una parola 
 let wordRequest = prompt('scrivi una parola');
@@ -18,6 +18,8 @@ if(wordRequest == reverseWord){
     console.log('la parola inserita non è palindroma');
 }
 // la funzione dovrà analizzare se la parola inserita è effettivamente un palindromo
+
+// FUNCTION
 
 function mirrorWord(wordLength){
   let reverseWord = '';
