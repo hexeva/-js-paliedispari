@@ -17,6 +17,10 @@ console.log(chooseNumber);
 
 // creo una funzione che generi un numero random per il computer
 
+
+
+// VARIABILI DELLE FUNZIONI
+
 // creo anche la variabile della funzione random per il computer
 
 let computerRandom = getRndInteger(1,5);
@@ -48,13 +52,13 @@ function functionEvenOrOdd (userNumber,computerNumber){
     console.log(sum);
     // se la somma di sum corrisponde a chooseNUmber scrivo il risultato
     let result;
-    if (sum % 2 === 0 && evenOrOdd === 'pari'){
+    if (sum % 2 === 0){
 
-      result ='hai vinto!'
+      result ='pari'
 
         
-    }else if (!(sum % 2 === 0 && evenOrOdd === 'pari')){ 
-      result ='hai perso!';
+    }else if (!(sum % 2 === 0)){ 
+      result ='dispari';
     }
     // result
 
@@ -62,6 +66,20 @@ function functionEvenOrOdd (userNumber,computerNumber){
 
 }
 console.log(resultEvenOrOdd);
+
+let finalResponse;
+
+if (resultEvenOrOdd === evenOrOdd) {
+  finalResponse = 'hai vinto';
+
+}else{
+  finalResponse = 'hai perso';
+}
+
+// output
+
+alert(finalResponse);
+
 
 
 
